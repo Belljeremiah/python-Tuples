@@ -17,3 +17,16 @@ if animal_to_find in zoo:
 # converting tuple (zoo) into a list and printing it after set as variable list_animals
 list_animals = list(zoo)
 print(list_animals)
+
+# use extend to add three more animals
+zoo2 = ["fiji mermaid", "snipe", "jackalope"]
+
+list_animals.extend(zoo2)
+
+print(list_animals)
+
+tuple_animals = tuple(list_animals)
+
+print(tuple_animals)
+
+# FIN
